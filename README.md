@@ -1,10 +1,10 @@
-# Cordova FancyAlertPlugin
+# Cordova Material DateTime Picker
 
 **Based On :** 
 Material DateTime : https://github.com/wdullaer/MaterialDateTimePicker
 
 
-**Cordova plugin : Material DateTime** 
+**Cordova plugin : cordova-plugin-materialdatetime** 
 
 Platforms available : **android**
 
