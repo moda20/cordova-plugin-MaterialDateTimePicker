@@ -80,6 +80,8 @@ The `TimePicker` function returns a promise that resolves with the time chosen.
 
 # DatePicker
 **The function arguments are a single object** 
+
+
 | Attribute                 | Description                                                                            | Type                                                               |
 |---------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | title                     | a title to display on top of the  timepicker                                           | String                                                             |
