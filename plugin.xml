@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova.plugin.materialdatetime" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaMaterialDateTime</name>
+    <js-module name="CordovaMaterialDateTime" src="www/CordovaMaterialDateTime.js">
+        <clobbers target="cordova.plugins.CordovaMaterialDateTime"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="CordovaMaterialDateTime">
+                <param name="android-package" value="cordova.plugin.materialdatetime.CordovaMaterialDateTime"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/CordovaMaterialDateTime.java"
+                     target-dir="src/cordova/plugin/materialdatetime/CordovaMaterialDateTime"/>
+        <framework src="com.android.support:appcompat-v7:27.1.1"/>
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+    </platform>
+</plugin>

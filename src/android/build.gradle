@@ -1,0 +1,9 @@
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
+}
+dependencies {
+    implementation 'com.wdullaer:materialdatetimepicker:3.6.4'
+}

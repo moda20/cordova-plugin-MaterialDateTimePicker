@@ -1,0 +1,18 @@
+{
+  "name": "cordova.plugin.materialdatetime",
+  "version": "0.1.0",
+  "description": "A cordova plugin based on material Date and Time pickers",
+  "cordova": {
+    "id": "cordova.plugin.materialdatetime",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "moda20",
+  "license": "MIT",
+  "github":"https://github.com/moda20/cordova-plugin-MaterialDateTimePicker.git"
+}
